@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Database Connection is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Browser Opened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[URL Opened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Skipped Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked & Entered B2B link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked & Entered Industrial Plants & Machinery link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked & Entered Furnace link]]>
+    </line>
+    <line>
+      <![CDATA[Mouse over to Apparel & Fashion Link]]>
+    </line>
+    <line>
+      <![CDATA[Gloves Linked got Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Switched to Gloves tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Gloves for Kitchen]]>
+    </line>
+    <line>
+      <![CDATA[Switched to Gloves for Kitchen Tab]]>
+    </line>
+    <line>
+      <![CDATA[Ask For Price button got clicked]]>
+    </line>
+    <line>
+      <![CDATA[Name Entered Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Mobile No Enetred Successfully]]>
+    </line>
+    <line>
+      <![CDATA[LogOff Skipped Successfully]]>
+    </line>
+    <line>
+      <![CDATA[URL Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Database Connection is Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8576" started-at="2022-02-11T19:28:45 IST" finished-at="2022-02-11T19:28:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8576" started-at="2022-02-11T19:28:45 IST" finished-at="2022-02-11T19:28:54 IST">
+      <class name="com.crm.justdial.b2btest.AskPriceTest">
+        <test-method status="PASS" signature="dbConnectionOpen()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="dbConnectionOpen" is-config="true" duration-ms="6" started-at="2022-02-11T19:28:45 IST" finished-at="2022-02-11T19:28:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connection is Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnectionOpen -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="openBrowser" is-config="true" duration-ms="1675" started-at="2022-02-11T19:28:45 IST" finished-at="2022-02-11T19:28:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="openUrl" is-config="true" duration-ms="1916" started-at="2022-02-11T19:28:47 IST" finished-at="2022-02-11T19:28:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[URL Opened Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="login" is-config="true" duration-ms="0" started-at="2022-02-11T19:28:49 IST" finished-at="2022-02-11T19:28:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Skipped Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="b2b_TC_002Test()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="b2b_TC_002Test" duration-ms="4961" started-at="2022-02-11T19:28:49 IST" finished-at="2022-02-11T19:28:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked & Entered B2B link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked & Entered Industrial Plants & Machinery link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked & Entered Furnace link]]>
+            </line>
+            <line>
+              <![CDATA[Mouse over to Apparel & Fashion Link]]>
+            </line>
+            <line>
+              <![CDATA[Gloves Linked got Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Switched to Gloves tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Gloves for Kitchen]]>
+            </line>
+            <line>
+              <![CDATA[Switched to Gloves for Kitchen Tab]]>
+            </line>
+            <line>
+              <![CDATA[Ask For Price button got clicked]]>
+            </line>
+            <line>
+              <![CDATA[Name Entered Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Mobile No Enetred Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b2b_TC_002Test -->
+        <test-method status="PASS" signature="logoff()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="logoff" is-config="true" duration-ms="1" started-at="2022-02-11T19:28:54 IST" finished-at="2022-02-11T19:28:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LogOff Skipped Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoff -->
+        <test-method status="PASS" signature="closeUrl()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="closeUrl" is-config="true" duration-ms="0" started-at="2022-02-11T19:28:54 IST" finished-at="2022-02-11T19:28:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[URL Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-02-11T19:28:54 IST" finished-at="2022-02-11T19:28:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="dbConnectionClose()[pri:0, instance:com.crm.justdial.b2btest.AskPriceTest@8646db9]" name="dbConnectionClose" is-config="true" duration-ms="0" started-at="2022-02-11T19:28:54 IST" finished-at="2022-02-11T19:28:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connection is Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClose -->
+      </class> <!-- com.crm.justdial.b2btest.AskPriceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
