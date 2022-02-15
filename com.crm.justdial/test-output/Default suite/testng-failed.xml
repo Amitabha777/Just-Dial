@@ -3,19 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.justdial.airticketstest.BookTicket">
+      <class name="com.crm.justdial.automobiletest.SelectAutomobileTest">
         <methods>
           <include name="closeBrowser"/>
           <include name="openUrl"/>
           <include name="closeUrl"/>
-          <include name="Bookticket_TC_07"/>
           <include name="dbConnectionOpen"/>
           <include name="dbConnectionClose"/>
+          <include name="TC_01Test"/>
           <include name="login"/>
           <include name="openBrowser"/>
           <include name="logoff"/>
         </methods>
-      </class> <!-- com.crm.justdial.airticketstest.BookTicket -->
+      </class> <!-- com.crm.justdial.automobiletest.SelectAutomobileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

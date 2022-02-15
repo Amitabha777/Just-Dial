@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [problem_Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.justdial.covid19test.CovidStatus">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openUrl"/>
+          <include name="closeUrl"/>
+          <include name="dbConnectionOpen"/>
+          <include name="dbConnectionClose"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="logoff"/>
+          <include name="covidStat_TC_05"/>
+        </methods>
+      </class> <!-- com.crm.justdial.covid19test.CovidStatus -->
+      <class name="com.crm.justdial.airticketstest.BookTicket">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openUrl"/>
+          <include name="closeUrl"/>
+          <include name="Bookticket_TC_07"/>
+          <include name="dbConnectionOpen"/>
+          <include name="dbConnectionClose"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="logoff"/>
+        </methods>
+      </class> <!-- com.crm.justdial.airticketstest.BookTicket -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [problem_Suite] -->

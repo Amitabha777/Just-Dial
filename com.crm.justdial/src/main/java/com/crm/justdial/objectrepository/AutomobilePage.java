@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class AutomobilePage {
 
 	//Locate Web Elements & Declare them as Private
-	@FindBy(css = "span[title='New Cars']")
+	@FindBy(xpath = "(//span[@title='New Cars'])[1]")
 	private WebElement newCarsLnk;
 	
 	

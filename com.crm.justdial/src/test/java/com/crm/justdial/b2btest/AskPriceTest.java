@@ -4,6 +4,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.justdial.genericutility.BaseClass;
@@ -12,6 +13,7 @@ import com.crm.justdial.objectrepository.FurnacePage;
 import com.crm.justdial.objectrepository.HomePage;
 import com.crm.justdial.objectrepository.IndustrialPlantAndMachineryPage;
 
+@Listeners(com.crm.justdial.genericutility.ListenerImplementation.class)
 public class AskPriceTest extends BaseClass{
 
 	@Test

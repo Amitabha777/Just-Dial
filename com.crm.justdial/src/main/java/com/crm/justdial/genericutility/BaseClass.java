@@ -26,12 +26,13 @@ public class BaseClass {
 	public DataBaseUtility dLib= new DataBaseUtility();
 	public FileUtility fLib= new FileUtility();
 	public WebDriverUtility wLib= new WebDriverUtility();
+	public JavaUtility jLib = new JavaUtility();
 	
 	
 	//Declaring Object of WebDriver
 	
 	public WebDriver driver=null;
-	
+	public static WebDriver sdriver;
 	
 	@BeforeSuite
 	public void dbConnectionOpen()
@@ -50,22 +51,27 @@ public class BaseClass {
 	@BeforeTest
 	public void openBrowser() throws IOException
 	{
-		String browser=fLib.propertyKeyValue("webBrowser");
-		driver=wLib.crossBrowserHandling(browser);
-		
-		Reporter.log("Browser Opened Successfully",true);
+		Reporter.log("Before Test Running",true);
+	
 	}
 	
 	@AfterTest
 	public void closeBrowser()
 	{
-		//driver.close();
+		//driver.quit();
 		Reporter.log("Browser Closed Successfully",true);
 	}
 	
 	@BeforeClass
 	public void openUrl() throws IOException
 	{
+		String browser=fLib.propertyKeyValue("webBrowser");
+		driver=wLib.crossBrowserHandling(browser);
+		
+		sdriver=driver;
+		
+		Reporter.log("Browser Opened Successfully",true);
+		
 		String url=fLib.propertyKeyValue("url");
 		driver.get(url);
 		wLib.deleteCookies(driver);							//Delete All Cookies
@@ -78,6 +84,7 @@ public class BaseClass {
 	@AfterClass
 	public void closeUrl()
 	{
+		//driver.close();
 		Reporter.log("URL Closed Successfully",true);
 	}
 	

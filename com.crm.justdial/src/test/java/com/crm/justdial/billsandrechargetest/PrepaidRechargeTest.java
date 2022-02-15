@@ -4,16 +4,18 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.justdial.genericutility.BaseClass;
 import com.crm.justdial.objectrepository.BillsAndRechargePage;
 import com.crm.justdial.objectrepository.HomePage;
 
-public class PrepaidRecharge extends BaseClass{
+@Listeners(com.crm.justdial.genericutility.ListenerImplementation.class)
+public class PrepaidRechargeTest extends BaseClass{
 
 	@Test
-	public void rechrg_TC_06()
+	public void rechrg_TC_06() throws InterruptedException
 	{
 		
 		//Objects Of POM Class
@@ -38,7 +40,7 @@ public class PrepaidRecharge extends BaseClass{
 		
 		wLib.handleDropDownOrMultipleElements(lst, "bsnl");
 		
-		
+		//Thread.sleep(5000);
 		
 		//Select (Validity/Special) Radio Button under Bsnl
 		driver.findElement(By.xpath("//label[.='BSNL (Validity / Special)']")).click();

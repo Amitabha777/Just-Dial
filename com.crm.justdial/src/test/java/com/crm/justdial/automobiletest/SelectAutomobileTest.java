@@ -3,6 +3,7 @@ package com.crm.justdial.automobiletest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.justdial.genericutility.BaseClass;
@@ -14,7 +15,7 @@ import com.crm.justdial.objectrepository.NewCarsPage;
  * @author AMITABHA
  *
  */
-
+@Listeners(com.crm.justdial.genericutility.ListenerImplementation.class)
 public class SelectAutomobileTest extends BaseClass{
 
 	@Test
@@ -38,8 +39,8 @@ public class SelectAutomobileTest extends BaseClass{
 		
 		
 		//Clicking on Price Range Rs 1000000 to Rs 2000000
-		newCarsPage.selectRange(1850000);
-		Reporter.log("Clicked on Rs 1000000 to Rs 2000000 Price Range",true);
+//		newCarsPage.selectRange(1850000l);
+//		Reporter.log("Clicked on Rs 1000000 to Rs 2000000 Price Range",true);
 		
 		
 		//Handling Stale Element Exception By Try Catch Block

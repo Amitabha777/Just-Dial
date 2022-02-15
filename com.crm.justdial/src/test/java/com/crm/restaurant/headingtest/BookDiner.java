@@ -22,7 +22,7 @@ public class BookDiner extends BaseClass{
 	//Objects Of POM Class
 	HomePage homePage= new HomePage(driver);
 	//RestaurantsPage restaurantsPage= new RestaurantsPage(driver);
-	//BookTablePage bookTablePage= new BookTablePage(driver);
+	BookTablePage bookTablePage= new BookTablePage(driver);
 	
 	
 	//Click on Restaurant Header in JustDial Site Body
@@ -37,27 +37,27 @@ public class BookDiner extends BaseClass{
 	//restaurantsPage.clickOnBookATable();
 	
 	//Click on Book A Table of Copacabana Pub
-	//bookTablePage.clickOnBookOrderOfCopacabanaPub();
+	bookTablePage.clickOnBookOrderOfCopacabanaPub();
 
-//	String mainId=driver.getWindowHandle();
+////	String mainId=driver.getWindowHandle();
+////	
+////	Set<String> allIds=driver.getWindowHandles();
+////	
+////	wLib.handleWindowsOrTabs(driver, allIds, "eazydiner");
+////	
+////	System.out.println(driver.getTitle());
 //	
-//	Set<String> allIds=driver.getWindowHandles();
+//	//Alert alt=driver.switchTo().alert();
 //	
-//	wLib.handleWindowsOrTabs(driver, allIds, "eazydiner");
+//	//alt.accept();
 //	
-//	System.out.println(driver.getTitle());
-	
-	//Alert alt=driver.switchTo().alert();
-	
-	//alt.accept();
-	
-	//System.out.println(driver.getCurrentUrl());
-	
-	
-	//driver.findElement(By.xpath("//input[@aria-label='Use the arrow keys to pick a date']")).click();
-	
-	//driver.findElement(By.xpath("//span[@class='text-blue pointer review_tab']")).click();
-	
-	//driver.findElement(By.xpath("//span[.='Login']")).click();
+//	//System.out.println(driver.getCurrentUrl());
+//	
+//	
+//	//driver.findElement(By.xpath("//input[@aria-label='Use the arrow keys to pick a date']")).click();
+//	
+//	//driver.findElement(By.xpath("//span[@class='text-blue pointer review_tab']")).click();
+//	
+//	//driver.findElement(By.xpath("//span[.='Login']")).click();
 	}
 }

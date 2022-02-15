@@ -16,7 +16,7 @@ import com.crm.justdial.objectrepository.CovidHelpLinePage;
 import com.crm.justdial.objectrepository.HomePage;
 import com.crm.justdial.objectrepository.VaccinationCentersPage;
 
-public class CovidStatus extends BaseClass{
+public class CovidStatusTest extends BaseClass{
 
 	@Test
 	public void covidStat_TC_05() throws InterruptedException

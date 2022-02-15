@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="problem_Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.justdial.airticketstest.BookTicket"/>
+      <class name="com.crm.restaurant.headingtest.BookDiner"/>
+      <class name="com.crm.justdial.chemisttest.ChooseChemist"/>
+      <class name="com.crm.justdial.covid19test.CovidStatusTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- problem_Suite -->
